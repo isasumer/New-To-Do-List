@@ -1,5 +1,3 @@
-
-
 let liste = document.querySelector("#list")
 let task = document.querySelector("#task"); 
 let liveToastBtn = document.querySelector("#liveToastBtn")
@@ -16,4 +14,4 @@ liveToastBtn.addEventListener("click",function(){
                 
     // Veri inputu içerisindeki metni siliyoruz.
     task.value = "";
-  });
+});
